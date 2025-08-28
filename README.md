@@ -42,3 +42,30 @@ QIG/
 │
 ├── paper_v1.0.md             # 논문 초안 (KR/EN 병기 예정)
 └── README.md
+
+---
+
+# 1. 의존성 설치
+python3 -m pip install -r code/requirements.txt
+
+# 2. 시뮬레이션 실행
+python3 code/dtg_simulation.py
+
+결과:
+	•	data/spikes.csv, data/energy.csv → 누적 기록
+	•	figures/membrane_alpha_{1.0,0.7,0.5}.png → 그래프 자동 저장
+
+⸻
+
+---
+
+📌 Next Steps
+	•	LIF 뉴런 기반 시뮬레이션 자동화 및 시각화 고도화
+	•	Multi-Agent Consensus 실험 준비
+	•	논문 초안(paper_v1.0.md) KR/EN 병기 작성
+
+---
+
+🔗 Links
+	•	GitHub: https://github.com/GNJz/QIG
+
