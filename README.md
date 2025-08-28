@@ -21,7 +21,8 @@ python3 code/dtg_simulation.py
 # - data/spikes.csv, data/energy.csv 에 누적 기록
 # - figures/membrane_alpha_{1.0,0.7,0.5}.png 저장
 
----  
+---
+
 
 ## 📂 Folder Structure
 
@@ -51,4 +52,5 @@ QIG/
 │  
 ├── paper_v1.0.md             # 논문 초안 (KR/EN 병기 예정)  
 └── README.md
+
 
