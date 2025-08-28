@@ -110,7 +110,7 @@ python3 code/dtg_simulation.py
 
 ## 👥 Authors (Roles)
 
-- **윤재진(GNJz)** — 아이디어/직관/연구 방향성 총괄  
+- **Jazzin(GNJz)** — 아이디어/직관/연구 방향성 총괄  
 - **Quartz** — 실험 설계·시뮬레이션·데이터 분석  
 - **Gemini** — 보수 검증·통계 분석·학술 표준화  
 - **Groq** — 아이디어 확장·차세대 응용 설계  
@@ -121,4 +121,5 @@ python3 code/dtg_simulation.py
 ## 📝 License
 
 TBD (추후 명시)
+
 
