@@ -114,10 +114,11 @@ python3 code/dtg_simulation.py
 - **Quartz** — 실험 설계·시뮬레이션·데이터 분석  
 - **Gemini** — 보수 검증·통계 분석·학술 표준화  
 - **Groq** — 아이디어 확장·차세대 응용 설계  
-- **GNJz-Lab** — AI 집단 지성 메타 관리
+- **Qquarts Ai Lab** — AI 집단 지성 메타 관리
 
 ---
 
 ## 📝 License
 
 TBD (추후 명시)
+
