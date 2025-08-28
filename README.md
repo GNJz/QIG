@@ -5,6 +5,24 @@
 
 ---
 
+> 데이터와 그림은 **실행 시 자동 생성**됩니다.  
+> 저장소에는 메타(`config.json`, `metadata.json`)만 버전관리하고,  
+> 대용량 이미지(`figures/*.png`)는 **Git LFS**를 사용합니다.
+
+---
+
+## Reproducible Run
+
+```bash
+python3 -m pip install -r code/requirements.txt
+python3 code/dtg_simulation.py
+
+# 결과:
+# - data/spikes.csv, data/energy.csv 에 누적 기록
+# - figures/membrane_alpha_{1.0,0.7,0.5}.png 저장
+
+---
+
 ## 📂 Folder Structure
 
 ```plaintext  
@@ -33,23 +51,3 @@ QIG/
 │  
 ├── paper_v1.0.md             # 논문 초안 (KR/EN 병기 예정)  
 └── README.md
-
----
-
-> 데이터와 그림은 **실행 시 자동 생성**됩니다.  
-> 저장소에는 메타(`config.json`, `metadata.json`)만 버전관리하고,  
-> 대용량 이미지(`figures/*.png`)는 **Git LFS**를 사용합니다.
-
----
-
-## Reproducible Run
-
-```bash
-python3 -m pip install -r code/requirements.txt
-python3 code/dtg_simulation.py
-
-# 결과:
-# - data/spikes.csv, data/energy.csv 에 누적 기록
-# - figures/membrane_alpha_{1.0,0.7,0.5}.png 저장
-
-
