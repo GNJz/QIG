@@ -52,3 +52,18 @@ python3 code/dtg_simulation.py
 # - data/spikes.csv, data/energy.csv 에 누적 기록
 # - figures/membrane_alpha_{1.0,0.7,0.5}.png 저장
 
+> **참고**  
+> - 데이터와 이미지는 **실행 시 자동 생성**됩니다.  
+> - 저장소에서는 메타(`config.json`, `metadata.json`)만 버전 관리합니다.  
+> - 대용량 이미지(`figures/*.png`)는 **Git LFS**를 사용하세요.
+
+---
+
+## 🚀 Reproducible Run
+
+```bash
+# 의존성 설치
+python3 -m pip install -r code/requirements.txt
+
+# 시뮬레이션 실행
+python3 code/dtg_simulation.py
