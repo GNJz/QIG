@@ -9,4 +9,9 @@ data/*.csv
 !data/metadata.json
 
 # Logs
-logs/*.log
+logs/*.logfigures/run_*/
+figures/runs/*
+data/run_*/
+data/runs/*
+__pycache__/
+.pytest_cache/
