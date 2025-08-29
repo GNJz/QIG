@@ -1,0 +1,12 @@
+{
+  "run_id": "20250829T102311Z-62d46db7",
+  "archived_at_utc": "2025-08-29T10:47:07.039224+00:00",
+  "spikes_rows": 3,
+  "energy_rows": 3,
+  "artifacts": {
+    "spikes_subset": "data/runs/20250829T102311Z-62d46db7/spikes_subset.csv",
+    "energy_subset": "data/runs/20250829T102311Z-62d46db7/energy_subset.csv",
+    "spikes_bar_png": "figures/runs/20250829T102311Z-62d46db7/spikes_bar.png",
+    "snippet_md": "data/runs/20250829T102311Z-62d46db7/README_snippet.md"
+  }
+}
